@@ -1,0 +1,56 @@
+﻿<p class="MsoNormal"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNormal"><b>Data Basis:<o:p></o:p></b></p>
+
+<p class="MsoNormal">The data used for this application is the R mtcars data set.
+This data set relates several car attributes, e.g. weight (wt), horsepower (hp)
+and displacement (disp.) to gas consumption resp. miles per gallon (MPG) for
+certain types of cars. <o:p></o:p></p>
+
+<p class="MsoNormal"><b>Filtering Data:<o:p></o:p></b></p>
+
+<p class="MsoNormal">For the cars available in data frame «mtcars», in the
+sidebar panel, several attributes can be chosen using a slide bar and radio
+buttons. Based on these attributes, the cars fulfilling these values are
+filtered. After filtering, the graphics, list of selected cars and statistics
+displayed for the cars (see the according tabs) are updated accordingly. If no
+car fulfills the filter criteria, no values are displayed.<o:p></o:p></p>
+
+<p class="MsoNormal"><b>2D Plots:<o:p></o:p></b></p>
+
+<p class="MsoNormal">In two tabs, 2D scatter diagrams are displayed, which show
+for the various cars analyzed (see above) the relation between MPG vs. weight
+respectively MPG vs. displacement. The colors display the number of cylinders,
+the size of the data points gives an impression of the horse powers per data
+point. Each data point symbolizes a car in the underlying data set. You can
+hover over any data point, displaying the according values. If you click on
+any, the value will be memorized in one of the text fields beneath the plots.
+The second text field if displaying the value the mouse cursor is currently
+hovering over. This feature migh be useful to compare two values in the plot.<o:p></o:p></p>
+
+<p class="MsoNormal"><b>3D Plot:<o:p></o:p></b></p>
+
+<p class="MsoNormal">The 3D-plot unites the 2D plot information in just one joint
+plot. For technical reasons, the filter values cannot be applied here, so 
+data displayed is always the full mtcars data set. However, within the plot,
+you can use standard functionality for zooming in and out.
+Depending on the browser you use, graphical display might be a challenge.
+It is recommended to use the Internet Explorer. If the plot does not get
+displayed when you open the tab, please try moving your mouse over where the
+plot should appear. Latest then, it should be displayed. By clicking on the
+graph and moving the mouse cursor, the 3D-perspective can be moved around.<o:p></o:p></p>
+
+<p class="MsoNormal"><b>List of selected
+Cars:<o:p></o:p></b></p>
+
+<p class="MsoNormal">One of the tabs provides a list of the selected cars. Within
+the list, which is based on standard Shiny functionality, you can navigate,
+sort and filter using the fields with the according labels.<o:p></o:p></p>
+
+<p class="MsoNormal"><b>Stats for selected
+Cars:<o:p></o:p></b></p>
+
+<p class="MsoNormal">For the selected cars, the average values for several
+attributes (horse powers, weight etc.) are calculated and displayed. For some
+values (e.g. transmission type), average calculation does not make sense, so
+these values are not calculated.<o:p></o:p></p>
